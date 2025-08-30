@@ -4,7 +4,8 @@
 #EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga
 http://vlc.shickat.me:8000/pid/f8d5e39a49b9da0215bbd3d9efb8fb3d06b76892/transmisión.mp4
 
-#EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga [Opción 2]http://vlc.shickat.me:8000/pid/520950d296c952e1864a08e15af9f89f1ab514ec/transmisión.mp4
+#EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga [Opción 2]
+http://vlc.shickat.me:8000/pid/520950d296c952e1864a08e15af9f89f1ab514ec/transmisión.mp4
 
 #EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga [Opción 3]
 http://vlc.shickat.me:8000/pid/e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05/transmisión.mp4
