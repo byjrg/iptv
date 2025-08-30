@@ -1,130 +1,85 @@
-#EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
-#EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml.gz"
+#EXTM3U Acestream
+#EXTM3U url-tvg=https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
 
-#EXTINF:-1 tvg-id="ElToroTV.TV" tvg-logo="https://graph.facebook.com/eltorotv.es/picture?width=200&height=200" group-title="Generalistas" tvg-name="El Toro TV",El Toro TV
-https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
-#EXTINF:-1 tvg-id="ElToroTV.TV" tvg-logo="https://graph.facebook.com/eltorotv.es/picture?width=200&height=200" group-title="Generalistas" tvg-name="El Toro TV",El Toro TV
-https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8
-#EXTINF:-1 tvg-id="A3P_Multicine.TV" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales" tvg-name="Atresplayer Multicine",Atresplayer Multicine
-https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41daf83cc.m3u8
-#EXTINF:-1 tvg-id="A3P_EqInvestigacion.TV" tvg-logo="https://graph.facebook.com/EqInvestigacion/picture?width=200&height=200" group-title="Eventuales" tvg-name="Equipo de investigación",Equipo de investigación
-https://fast-channels.atresmedia.com/648ef5551756b0e429af83cc/648ef5551756b0e429af83cc.m3u8
-#EXTINF:-1 tvg-id="RTVE_SomosCine.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Somos Cine",RTVE Somos Cine
-https://ztnr.rtve.es/ztnr/6909845.m3u8
-#EXTINF:-1 tvg-id="RTVE_Viajes.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Viajes",RTVE Viajes
-https://ztnr.rtve.es/ztnr/6987938.m3u8
-#EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Sur Andalucía",Canal Sur Andalucía
-https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
-#EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Sur Andalucía",Canal Sur Andalucía
-https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/CanalSurNoticias/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Sur Más Noticias",Canal Sur Más Noticias
-https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/APkrFKb6DZpbxOMbN_VANCdenLck4ceg7gxMk5tnkjmM=s200" group-title="Andalucía" tvg-name="Andalucía Cocina",Andalucía Cocina
-#EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
-https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/APkrFKYsl5e6jEIMtXIoTUHvkJqXxDfASrvQP_QFRRww=s200" group-title="Andalucía" tvg-name="Andalucía Turismo",Andalucía Turismo
-https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685
-#EXTINF:-1 tvg-id="AragonTV.TV" tvg-logo="https://graph.facebook.com/AragonTV/picture?width=200&height=200" group-title="Aragón" tvg-name="Aragón TV",Aragón TV
-https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/AragonNoticias/picture?width=200&height=200" group-title="Aragón" tvg-name="Aragón Noticias",Aragón Noticias
-https://cartv-streaming.aranova.es/hls/live/anoticias_canal3.m3u8
-#EXTINF:-1 tvg-id="PopularTV_S.TV" tvg-logo="https://graph.facebook.com/populartvcantabria/picture?width=200&height=200" group-title="Cantabria" tvg-name="Popular TV Cantabria",Popular TV Cantabria
-https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
-#EXTINF:-1 tvg-id="CMM.TV" tvg-logo="https://graph.facebook.com/CMMediaes/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Media",Castilla-La Mancha Media
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/a.m3u8
-#EXTINF:-1 tvg-id="TV3.TV" tvg-logo="https://pbs.twimg.com/profile_images/1269286508625891328/rVes9BS__200x200.png" group-title="Cataluña" tvg-name="TV3",TV3 GEO CAT
-https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
-#EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
-#EXTINF:-1 tvg-id="Telemadrid.TV" tvg-logo="https://graph.facebook.com/telemadrid/picture?width=200&height=200" group-title="C. de Madrid" tvg-name="Telemadrid",Telemadrid
-#EXTINF:-1 tvg-id="LaOtra.TV" tvg-logo="https://pbs.twimg.com/profile_images/1279727978268839938/jSZUiboT_200x200.jpg" group-title="C. de Madrid" tvg-name="LaOtra",LaOtra
-https://laotra-1-23-secure2.akamaized.net/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/tveInternacional/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TVE Int. Europa",TVE Int. Europa
-https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main_dvr.m3u8
-#EXTINF:-1 tvg-id="TVC.TV" tvg-logo="https://pbs.twimg.com/profile_images/1269286508625891328/rVes9BS__200x200.png" group-title="Int. Europa" tvg-name="TV3.CAT",TV3.CAT
-https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
-#EXTINF:-1 tvg-id="ETBSAT.TV" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200" group-title="Int. Europa" tvg-name="EITB Basque",EITB Basque
-https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
-#EXTINF:-1 tvg-id="TVGA.TV" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TVG América",TVG América
-https://crtvg-america.flumotion.cloud/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleMadridInt.TV" tvg-logo="https://graph.facebook.com/telemadrid/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Telemadrid Internacional",Telemadrid Internacional
-https://new-international-23-secure2.akamaized.net/index.m3u8
-#EXTINF:-1 tvg-id="APUNT.TV" tvg-logo="https://graph.facebook.com/apuntmedia/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="À Punt",À Punt
-https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-#EXTINF:-1 channel-id="ES26000025M" tvg-id="ES26000025M" tvg-chno="4201" tvg-name="¡Hola! Play" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000025M_20241210T052650SQUARE.png" group-title="Entretenimiento", ¡Hola! Play
-https://jmp2.uk/sam-ES26000025M.m3u8
-#EXTINF:-1 channel-id="ES260001081" tvg-id="ES260001081" tvg-chno="4825" tvg-name="100% Navidad - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260001081_20241126T043107SQUARE.png" group-title="Niños", 100% Navidad - Rakuten TV
-https://jmp2.uk/sam-ES260001081.m3u8
-#EXTINF:-1 channel-id="ES2600004BD" tvg-id="ES2600004BD" tvg-chno="4999" tvg-name="Acción - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600004BD_20241126T043053SQUARE.png" group-title="Cine", Acción - Rakuten TV
-https://jmp2.uk/sam-ES2600004BD.m3u8
-#EXTINF:-1 channel-id="ES3200001F1" tvg-id="ES3200001F1" tvg-chno="4488" tvg-name="BBC Earth" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200001F1_20241106T142245SQUARE.png" group-title="Documentales", BBC Earth
-https://jmp2.uk/sam-ES3200001F1.m3u8
-#EXTINF:-1 channel-id="ESBC2700003T8" tvg-id="ESBC2700003T8" tvg-chno="4927" tvg-name="Bigtime - Películas Gratis" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700003T8_20241022T050457SQUARE.png" group-title="Cine", Bigtime - Películas Gratis
-https://jmp2.uk/sam-ESBC2700003T8.m3u8
-#EXTINF:-1 channel-id="ES3000008O8" tvg-id="ES3000008O8" tvg-chno="4944" tvg-name="Cine Español - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3000008O8_20241022T050508SQUARE.png" group-title="Cine", Cine Español - Rakuten TV
-https://jmp2.uk/sam-ES3000008O8.m3u8
-#EXTINF:-1 channel-id="ESBC2700012RP" tvg-id="ESBC2700012RP" tvg-chno="4904" tvg-name="Cine Feel Good – Verdi TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700012RP_20241022T050510SQUARE.png" group-title="Cine", Cine Feel Good – Verdi TV
-https://jmp2.uk/sam-ESBC2700012RP.m3u8
-#EXTINF:-1 channel-id="ESBC2700011AZ" tvg-id="ESBC2700011AZ" tvg-chno="4872" tvg-name="Cines Verdi TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700011AZ_20241022T050514SQUARE.png" group-title="Cine", Cines Verdi TV
-https://jmp2.uk/sam-ESBC2700011AZ.m3u8
-#EXTINF:-1 channel-id="ES34000039I" tvg-id="ES34000039I" tvg-chno="4569" tvg-name="CNN en Español" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20241022T050503SQUARE.png" group-title="Noticias", CNN en Español
-https://jmp2.uk/sam-ES34000039I.m3u8
-#EXTINF:-1 channel-id="ES260000700" tvg-id="ES260000700" tvg-chno="4908" tvg-name="Comedia - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000700_20241022T051222SQUARE.png" group-title="Cine", Comedia - Rakuten TV
-https://jmp2.uk/sam-ES260000700.m3u8
-#EXTINF:-1 channel-id="ES2600005G9" tvg-id="ES2600005G9" tvg-chno="4305" tvg-name="Crimen - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600005G9_20241126T043110SQUARE.png" group-title="Crimen", Crimen - Rakuten TV
-https://jmp2.uk/sam-ES2600005G9.m3u8
-#EXTINF:-1 channel-id="ES33000025N" tvg-id="ES33000025N" tvg-chno="4299" tvg-name="Crimen & Historia" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000025N_20241126T043056SQUARE.png" group-title="Crimen", Crimen & Historia
-https://jmp2.uk/sam-ES33000025N.m3u8
-#EXTINF:-1 channel-id="ESBA3300033PL" tvg-id="ESBA3300033PL" tvg-chno="4213" tvg-name="Encantador de Perros" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300033PL_20241022T050532SQUARE.png" group-title="Entretenimiento", Encantador de Perros
-https://jmp2.uk/sam-ESBA3300033PL.m3u8
-#EXTINF:-1 channel-id="ES26000068D" tvg-id="ES26000068D" tvg-chno="4004" tvg-name="Estilo y Vida – Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20241126T043113SQUARE.png" group-title="Entretenimiento", Estilo y Vida – Rakuten TV
-https://jmp2.uk/sam-ES26000068D.m3u8
-#EXTINF:-1 channel-id="ESAJ4500024LR" tvg-id="ESAJ4500024LR" tvg-chno="4003" tvg-name="Euronews en directo" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500024LR_20230222T012038SQUARE.png_20230222012039.png" group-title="Noticias", Euronews en directo
-https://jmp2.uk/sam-ESAJ4500024LR.m3u8
-#EXTINF:-1 channel-id="ESBD230000143" tvg-id="ESBD230000143" tvg-chno="4940" tvg-name="FreeTV Clásico" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD230000143_20241106T142216SQUARE.png" group-title="Cine", FreeTV Clásico
-https://jmp2.uk/sam-ESBD230000143.m3u8
-#EXTINF:-1 channel-id="ESBA3300039ZX" tvg-id="ESBA3300039ZX" tvg-chno="4241" tvg-name="FreeTV Estelar" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300039ZX_20241022T050312SQUARE.png" group-title="Serie", FreeTV Estelar
-https://jmp2.uk/sam-ESBA3300039ZX.m3u8
-#EXTINF:-1 channel-id="ESBC2700002LO" tvg-id="ESBC2700002LO" tvg-chno="4925" tvg-name="Grjngo - Películas Del Oeste" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700002LO_20241022T050538SQUARE.png" group-title="Cine", Grjngo - Películas Del Oeste
-https://jmp2.uk/sam-ESBC2700002LO.m3u8
-#EXTINF:-1 channel-id="ES12000024R" tvg-id="ES12000024R" tvg-chno="4416" tvg-name="Historia y Vida" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES12000024R_20241106T142227SQUARE.png" group-title="Documentales", Historia y Vida
-https://jmp2.uk/sam-ES12000024R.m3u8
-#EXTINF:-1 channel-id="ESBC2700008SK" tvg-id="ESBC2700008SK" tvg-chno="4166" tvg-name="Just For Laughs" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700008SK_20241022T051028SQUARE.png" group-title="Comedia", Just For Laughs
-https://jmp2.uk/sam-ESBC2700008SK.m3u8
-#EXTINF:-1 channel-id="ESBD3600001Q1" tvg-id="ESBD3600001Q1" tvg-chno="4633" tvg-name="La Liga Inside" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20241022T050545SQUARE.png" group-title="Deporte", La Liga Inside
-https://jmp2.uk/sam-ESBD3600001Q1.m3u8
-#EXTINF:-1 channel-id="ESBC4700002TD" tvg-id="ESBC4700002TD" tvg-chno="4494" tvg-name="Love the Planet" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4700002TD_20241106T142242SQUARE.png" group-title="Documentales", Love the Planet
-https://jmp2.uk/sam-ESBC4700002TD.m3u8
-#EXTINF:-1 channel-id="ESBA2200004G5" tvg-id="ESBA2200004G5" tvg-chno="4870" tvg-name="MyTime Movie Network" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA2200004G5_20241210T052628SQUARE.png" group-title="Cine", MyTime Movie Network
-https://jmp2.uk/sam-ESBA2200004G5.m3u8
-#EXTINF:-1 channel-id="ESBA22000102A" tvg-id="ESBA22000102A" tvg-chno="4490" tvg-name="NatureTime" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA22000102A_20241022T050748SQUARE.png" group-title="Documentales", NatureTime
-https://jmp2.uk/sam-ESBA22000102A.m3u8
-#EXTINF:-1 channel-id="ES2600003UM" tvg-id="ES2600003UM" tvg-chno="4998" tvg-name="Películas de Drama - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600003UM_20241022T050439SQUARE.png" group-title="Cine", Películas de Drama - Rakuten TV
-https://jmp2.uk/sam-ES2600003UM.m3u8
-#EXTINF:-1 channel-id="ES2600012C9" tvg-id="ES2600012C9" tvg-chno="4888" tvg-name="Películas Románticas - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600012C9_20241022T050603SQUARE.png" group-title="Cine", Películas Románticas - Rakuten TV
-https://jmp2.uk/sam-ES2600012C9.m3u8
-#EXTINF:-1 channel-id="ES2600013H4" tvg-id="ES2600013H4" tvg-chno="4878" tvg-name="Películas Top - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600013H4_20241022T050605SQUARE.png" group-title="Cine", Películas Top - Rakuten TV
-https://jmp2.uk/sam-ES2600013H4.m3u8
-#EXTINF:-1 channel-id="ES2800001G7" tvg-id="ES2800001G7" tvg-chno="4942" tvg-name="Planeta de Cine" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2800001G7_20241210T052641SQUARE.png" group-title="Cine", Planeta de Cine
-https://jmp2.uk/sam-ES2800001G7.m3u8
-#EXTINF:-1 channel-id="ESAJ3800001KT" tvg-id="ESAJ3800001KT" tvg-chno="4874" tvg-name="Pluto TV Cine Estelar" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800001KT_20241022T050403SQUARE.png" group-title="Cine", Pluto TV Cine Estelar
-https://jmp2.uk/sam-ESAJ3800001KT.m3u8
-#EXTINF:-1 channel-id="ESAJ3800007PC" tvg-id="ESAJ3800007PC" tvg-chno="4513" tvg-name="Pluto TV Cocina" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800007PC_20241022T050753SQUARE.png" group-title="Viajes y Cocina", Pluto TV Cocina
-https://jmp2.uk/sam-ESAJ3800007PC.m3u8
-#EXTINF:-1 channel-id="ESBC400001QQ" tvg-id="ESBC400001QQ" tvg-chno="4876" tvg-name="Runtime" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400001QQ_20241022T050617SQUARE.png" group-title="Cine", Runtime
-https://jmp2.uk/sam-ESBC400001QQ.m3u8
-#EXTINF:-1 channel-id="ESBD80000288" tvg-id="ESBD80000288" tvg-chno="4994" tvg-name="Runtime Acción" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD80000288_20241022T050620SQUARE.png" group-title="Cine", Runtime Acción
-https://jmp2.uk/sam-ESBD80000288.m3u8
-#EXTINF:-1 channel-id="ESBD8000033W" tvg-id="ESBD8000033W" tvg-chno="4906" tvg-name="Runtime Comedia" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD8000033W_20241022T050622SQUARE.png" group-title="Cine", Runtime Comedia
-https://jmp2.uk/sam-ESBD8000033W.m3u8
-#EXTINF:-1 channel-id="ES700004C8" tvg-id="ES700004C8" tvg-chno="4006" tvg-name="Runtime Familia" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20241210T052646SQUARE.png" group-title="Cine", Runtime Familia
-https://jmp2.uk/sam-ES700004C8.m3u8
-#EXTINF:-1 channel-id="ESBD800004KU" tvg-id="ESBD800004KU" tvg-chno="4886" tvg-name="Runtime Romance" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD800004KU_20241022T050627SQUARE.png" group-title="Cine", Runtime Romance
-https://jmp2.uk/sam-ESBD800004KU.m3u8
-#EXTINF:-1 channel-id="ESBC170000388" tvg-id="ESBC170000388" tvg-chno="4496" tvg-name="WaterBear" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC170000388_20241022T051159SQUARE.png" group-title="Documentales", WaterBear
-https://jmp2.uk/sam-ESBC170000388.m3u8
-#EXTINF:-1 channel-id="ESBA330004121" tvg-id="ESBA330004121" tvg-chno="4492" tvg-name="WildEarth" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA330004121_20241022T051202SQUARE.png" group-title="Documentales", WildEarth
-https://jmp2.uk/sam-ESBA330004121.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga
+http://vlc.shickat.me:8000/pid/f8d5e39a49b9da0215bbd3d9efb8fb3d06b76892/transmisión.mp4
 
+#EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga [Opción 2]http://vlc.shickat.me:8000/pid/520950d296c952e1864a08e15af9f89f1ab514ec/transmisión.mp4
 
+#EXTINF:-1 tvg-id="DAZN LaLiga HD",DAZN LaLiga [Opción 3]
+http://vlc.shickat.me:8000/pid/e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN LaLiga 2 HD",DAZN LaLiga 2
+http://vlc.shickat.me:8000/pid/ae16a8f004b1287ee1f53263ab265f72bba0daf5/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Movistar LaLiga HD",Movistar LaLiga
+http://vlc.shickat.me:8000/pid/07f2b92762cfff99bba785c2f5260c7934ca6034/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Movistar LaLiga HD",Movistar LaLiga [Opción 2]
+http://vlc.shickat.me:8000/pid/c32a2cf4631bad4bc40a15ee0f245ed30ad4d85c/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Movistar LaLiga 2 HD",Movistar LaLiga 2
+http://vlc.shickat.me:8000/pid/2809da9b019f403364f6e099a07cee5e8fa70dd7/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN F1 HD",DAZN F1
+http://vlc.shickat.me:8000/pid/8c1155cdfae76eb582290c04904c98da066657c9/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN F1 HD",DAZN F1 [Opción 2]
+http://vlc.shickat.me:8000/pid/ba6e1bdc8e03da60ff572557645eb04370af0cd0/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN 1 HD",DAZN 1
+http://vlc.shickat.me:8000/pid/ee4dc45720d3ec283f61189fbfc120c91d5141bf/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN 2 HD",DAZN 2
+http://vlc.shickat.me:8000/pid/9adf7ac6531788ec022dbc14b77e1367f6c5bdc5/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN 3 HD",DAZN 3
+http://vlc.shickat.me:8000/pid/6fb944e8985881ae6db89667aca6362e746255b6/transmisión.mp4
+
+#EXTINF:-1 tvg-id="DAZN 4 HD",DAZN 4
+http://vlc.shickat.me:8000/pid/6a11eb510edc5b3581c5c97883c44563eb894b1b/transmisión.mp4
+
+#EXTINF:-1 tvg-id="LaLiga TV HYPERMOTION",LaLiga TV HYPERMOTION
+http://vlc.shickat.me:8000/pid/f15f997f457e49ad9697e65cf2d78db26ee875b9/transmisión.mp4
+
+#EXTINF:-1 tvg-id="LaLiga TV HYPERMOTION 2",LaLiga TV HYPERMOTION 2
+http://vlc.shickat.me:8000/pid/1422d506c9f14c84b1249bf8ac0b0698cee7a659/transmisión.mp4
+
+#EXTINF:-1 tvg-id="LaLiga TV HYPERMOTION 3",LaLiga TV HYPERMOTION 3
+http://vlc.shickat.me:8000/pid/d9297d3576c05551c08e0fe5bd85a793361a3cca/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Movistar+",Movistar+ 
+http://vlc.shickat.me:8000/pid/5d9a26e0a5f3e5f2ae027bd05635ab9a4fd4b51a/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Movistar+",Movistar+ [Opción 2]
+http://vlc.shickat.me:8000/pid/5e24a1b9187fccb91553f7c7da4b36341386f74a/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Liga de Campeones por M+",Liga de Campeones por M+
+http://vlc.shickat.me:8000/pid/680187938f9305cce3ae240298f10e8695bf77c2/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Liga de Campeones por M+",Liga de Campeones por M+ [Opción 2]
+http://vlc.shickat.me:8000/pid/5c15c639207a080183b12fa63282b409c07401d6/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Liga de Campeones por M+ 2",Liga de Campeones por M+ 2
+http://vlc.shickat.me:8000/pid/33c009a025508cb2186b9ce36279640bb2507bdf/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Liga de Campeones por M+ 3",Liga de Campeones por M+ 3
+http://vlc.shickat.me:8000/pid/b96a9b23b5343ca748e126c9257f42e204d3f52c/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+",Deportes por M+
+http://vlc.shickat.me:8000/pid/a139afc03d1623c321f6b084f79def682c492efa/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+",Deportes por M+ [Opción 2]
+http://vlc.shickat.me:8000/pid/438991226c3bc6a06e7bfda9bea9f769957dc366/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+ 2",Deportes por M+ 2
+http://vlc.shickat.me:8000/pid/438991226c3bc6a06e7bfda9bea9f769957dc366/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+ 3",Deportes por M+ 3
+http://vlc.shickat.me:8000/pid/d5271a967767f761c8812c4b6195dd40f20126f7/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+ 4",Deportes por M+ 4
+http://vlc.shickat.me:8000/pid/ebf3f251c1e119aefc6a1efc95c9b5d1909249e2/transmisión.mp4
+
+#EXTINF:-1 tvg-id="Deportes por M+ 5",Deportes por M+ 5
+http://vlc.shickat.me:8000/pid/0b708083541a46dc15216c8003d7bcf39c458b2a/transmisión.mp4
